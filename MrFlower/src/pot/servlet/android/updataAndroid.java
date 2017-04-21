@@ -15,7 +15,7 @@ import java.io.PrintWriter;
 @WebServlet("/updataAndroid")
 public class updataAndroid extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        String up = "{\"apkUrl\":\"updata/MrFlower.apk\",\"versioncode\":\"2.0\"}";
+        String up = "{\"apkUrl\":\"updata/MrFlower.apk\",\"versioncode\":\"1.0\"}";
         response.setContentType("text/json;charset=UTF-8");
         response.setCharacterEncoding("UTF-8");
         PrintWriter out = response.getWriter();
